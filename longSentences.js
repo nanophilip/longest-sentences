@@ -50,7 +50,7 @@ function findLongestSentences() {
 		}
 	}
 	
-	let maxIndex = Math.min(10, sentences.length);
+	let maxIndex = Math.min(1000, sentences.length);
 	let result = "Average sentence length: " + (lengthSum / sentences.length) + "<br/>"
 	result += count50 + " sentences with more than 50 words<br/>";
 	result += count40 + " sentences with more than 40 words<br/>";
